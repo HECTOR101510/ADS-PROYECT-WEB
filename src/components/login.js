@@ -48,7 +48,7 @@ class Login extends React.Component {
       const { condition } = this.state;
 
       if (condition) {
-        return <Redirect to='/Proyecto/home'/>;
+        return <Redirect to='/Practica7/home'/>;
       }
 
       return(
