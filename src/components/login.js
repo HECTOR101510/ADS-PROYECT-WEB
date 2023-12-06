@@ -55,7 +55,7 @@ class Login extends React.Component {
         <body style={{backgroundImage:'url(./encuestas.jpg)'}} id="equis">
         <div class="d-flex align-items-center justify-content-center" style={styles} id="equis">
             <div className = "center-container" style={styles} id="equis">
-                <h1 className="AlignCenter" > LOGIN </h1>
+                <h1 className="AlignCenter font-weight-bold" > LOGIN </h1>
             <div class="form-group">
                 <label class="form-label font-weight-bold" for="User">Usuario</label>
                 <input placeholder="Ingrese el usuario" type="text" id="User" class="form-control font-weight-bold" />
